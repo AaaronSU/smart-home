@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button_analog_sensor"
+    android:layout_width="180dp"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/dark_blue"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_analogsensor"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginLeft="5dp"
+        android:elevation="20dp"
+        android:src="@drawable/ic_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/present_value"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:text="@string/analog_sensor_present_value"
+        android:textColor="@color/medium_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_analogsensor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/icon_analogsensor"
+        app:layout_constraintTop_toTopOf="@+id/icon_analogsensor" />
+
+    <TextView
+        android:id="@+id/analogsensor_name"
+        style="@style/TitleTextStyle"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:text="@string/analog_sensor_component_name"
+        android:textColor="@color/medium_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_analogsensor" />
+
+    <TextView
+        android:id="@+id/analogsensor_room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/medium_gray"
+        android:elevation="8dp"
+        android:text="@string/devicesroom_room_name"
+        app:layout_constraintEnd_toEndOf="@+id/analogsensor_name"
+        app:layout_constraintStart_toStartOf="@+id/analogsensor_name"
+        app:layout_constraintTop_toBottomOf="@+id/analogsensor_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

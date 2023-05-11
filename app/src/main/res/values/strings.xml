@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+
+    // Smart Home Page
+    <string name="home_page_welcome">Welcome Traveler</string>
+    <string name="home_page_room_name">Room name</string>
+    <string name="home_page_number_of_device">x devices</string>
+    <string name="home_page_number_of_sensor">x sensors</string>
+
+    // Bar navigation sensor and devices
+    <string name="sensor_bar">Sensors</string>
+    <string name="devices_bar">Devices</string>
+
+    // Devices and Sensors for room page
+    <string name="devicesroom_room_name">Room name</string>
+    <string name="device_component_name">Device Name</string>
+
+    // Sensors for room page
+    <string name="detector_sensor_component_name">Detector Name</string>
+
+    <string name="analog_sensor_component_name">Sensor Name</string>
+    <string name="analog_sensor_present_value">24°C</string>
+
+    // Bottom navigation Bar
+    <string name="bottom_home_item">Home</string>
+    <string name="bottom_add_item">Add</string>
+    <string name="bottom_device_item">Devices</string>
+
+</resources>

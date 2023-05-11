@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button_analog_sensor"
+    android:layout_width="180dp"
+    android:layout_height="160dp"
+    android:layout_marginBottom="@dimen/small_margin"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_device_off"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/dark_blue"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_device"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginLeft="5dp"
+        android:elevation="8dp"
+        android:src="@drawable/ic_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/button_off"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="@dimen/default_margin"
+        android:elevation="8dp"
+        android:gravity="center_vertical"
+        android:src="@drawable/button_off"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_device"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/icon_device" />
+
+    <TextView
+        android:id="@+id/component_name"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:text="@string/device_component_name"
+        android:layout_margin="@dimen/small_margin"
+        android:textColor="@color/medium_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_device" />
+
+    <TextView
+        android:id="@+id/component_room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/SubtitleTextStyle"
+        android:layout_marginTop="5dp"
+        android:elevation="8dp"
+        android:textColor="@color/medium_gray"
+        android:text="@string/devicesroom_room_name"
+        app:layout_constraintEnd_toEndOf="@+id/component_name"
+        app:layout_constraintStart_toStartOf="@+id/component_name"
+        app:layout_constraintTop_toBottomOf="@+id/component_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

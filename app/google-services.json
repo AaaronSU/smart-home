@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "224852649025",
+    "firebase_url": "https://smart-home-7cc80-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "smart-home-7cc80",
+    "storage_bucket": "smart-home-7cc80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224852649025:android:4d5150c3266c094fba92c0",
+        "android_client_info": {
+          "package_name": "fr.aaron.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224852649025-qma6pc4bsgok0d9speo6gqu0ih1ejvt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSuPvqBBWgzuZqF9Pd2MEGHoIjtial0EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224852649025-qma6pc4bsgok0d9speo6gqu0ih1ejvt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224852649025:android:c1f1696547a16cc9ba92c0",
+        "android_client_info": {
+          "package_name": "fr.shani.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224852649025-qma6pc4bsgok0d9speo6gqu0ih1ejvt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSuPvqBBWgzuZqF9Pd2MEGHoIjtial0EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224852649025-qma6pc4bsgok0d9speo6gqu0ih1ejvt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
